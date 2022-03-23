@@ -15,7 +15,7 @@ library(ggplot2)
 #################
 
 # ASV table from galaxy
-counts_orig <- read.table("./RData/Galaxy262-dada2_sequencetable.txt", sep = "", header = T)
+counts_orig <- read.table("./RData/Full16S_dada2_sequencetable.txt", sep = "", header = T)
 
 
 # simplify names
@@ -23,7 +23,7 @@ colnames(counts_orig) <- gsub("\\..", "__", gsub(".fastq.gz", "", gsub("trim.", 
 
 
 # taxonomy table
-taxa_orig <- read.table("./RData/Galaxy263-assignTaxonomy_and_addSpecies.txt", sep = "\t", header = T)
+taxa_orig <- read.table("./RData/Full16S_assignTaxonomy_addSpecies.txt", sep = "\t", header = T)
 colnames(taxa_orig)[1] <- "fasta"
 
 
