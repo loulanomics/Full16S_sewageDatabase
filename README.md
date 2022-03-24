@@ -74,6 +74,8 @@ GGTTTG...GTAACC
 
 ## Sewage samples
 
+Find the metadata file [here](https://github.com/loulanomics/Full16S_sewageDatabase/blob/main/Files/Wastewater_full16S_sample_metadata.csv)!
+
 - 22 wastewater treatment plants across USA during warm & cold sampling periods ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5); [Newton et al., 2015](https://journals.asm.org/doi/10.1128/mBio.02574-14))
 - 2 treatment plants from Milwaukee sampled monthly for two years ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5))
 
