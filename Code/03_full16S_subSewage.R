@@ -191,7 +191,6 @@ identical(taxa_ww$WW, colnames(counts_ww))
 ### save ###
 ############
 
-
 # reorder
 taxa_ww <- taxa_ww[c("UNIQ1", "WW", "compare", "Kingdom", "Phylum", "Class",
                      "Order", "Family", "Genus", "Species", "R1", "R2")]
@@ -204,3 +203,49 @@ counts_ww <- data.frame(orginalFile = rownames(counts_ww), counts_ww)
 # write
 write.csv(counts_ww, "./RData/03_counts.csv", row.names = F)
 write.csv(taxa_ww, "./RData/03_taxa.csv", row.names = F)
+
+
+
+#########
+### fasta
+
+fs1 <- counts_ww[-1]
+identical(taxa_ww$WW, colnames(fs1))
+colnames(fs1) <- taxa_ww$R1
+
+fs2 <- counts_ww[-1]
+identical(taxa_ww$WW, colnames(fs2))
+colnames(fs2) <- taxa_ww$R2
+
+fs <- cbind(fs1,fs2)
+fs <- fs[names(sort(colSums(fs), decreasing = T))]
+
+ids1 <- taxa_ww[c(2,4:11)]
+colnames(ids1)[c(1,9)] <- c("ASV", "read")
+ids1$ASV <- gsub("WW", "ASV", ids1$ASV)
+ids1$dir <- "R1"
+
+ids2 <- taxa_ww[c(2,4:10,12)]
+colnames(ids2)[c(1,9)] <- c("ASV", "read")
+ids2$ASV <- gsub("WW", "ASV", ids2$ASV)
+ids2$dir <- "R2"
+
+ids <- rbind(ids1, ids2)
+ids <- ids[match(colnames(fs), ids$read),]
+
+identical(colnames(fs), ids$read)
+
+ids <- paste0(ids$ASV, "__k_",
+              ids$Kingdom, "__p_",
+              ids$Phylum, "__c_",
+              ids$Class, "__o_",
+              ids$Order, "__f_",
+              ids$Family, "__g_",
+              ids$Genus, "__g_",
+              ids$Species, "__count_", colSums(fs), ":", 
+              ids$dir)
+
+
+uniquesToFasta(as.matrix(fs), ids = ids,
+               fout = "./RData/Full16S_sewageDatabase_ASV.fasta")
+
