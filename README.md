@@ -3,10 +3,12 @@
 Lou LaMartina, Angie Schmoldt, Ryan Newton
 
 
-
 ## Description
 
 We generated full-length 16S rRNA gene sequences in wastewater treatment plant influent from a 5-year Milwaukee time series and USA-wide sample set. Samples were PCR-amplified with unique barcodes appended to 5' ends of the forward and reverse primers. Sequencing was done on a PacBio Sequel II in a single library and reads were demultiplexed using unique barcode combinations.
+
+
+![image](https://github.com/loulanomics/Full16S_sewageDatabase/blob/main/Figures/dendrogram.png)
 
 
 ## Github contents
