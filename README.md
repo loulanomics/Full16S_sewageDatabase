@@ -1,3 +1,12 @@
+~ ~ ~ Coming soon-ish! :blush: ~ ~ ~ 
+
+:snail: :snail: :snail: :snail: :snail: :snail: :snail:
+-
+
+
+
+
+
 # Full-length 16S rRNA gene amplicons from raw sewage spanning years across USA
 
 Lou LaMartina, Angie Schmoldt, Ryan Newton
@@ -65,65 +74,6 @@ GGTTTG...GTAACC
 
 ## Sewage samples
 
-- 22 wastewater treatment plants across USA ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5); [Newton et al., 2015](https://journals.asm.org/doi/10.1128/mBio.02574-14))
-- 2 treatment plants from Milwaukee sampled monthly for five years ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5))
-
-
-
-
-
-| Location | Date |
-| :--- | :--- |
-| Auburn, Alabama | 	8/14/12 |
-| Austin, Texas | 	8/15/12 |
-| Delano, Minnesota | 	1/16/13 |
-| Denver, Colorado | 	1/23/13 |
-| Great Falls, Montana | 	1/16/13 |
-| Honolulu, Hawaii | 	9/7/12 |
-| Iowa City, Iowa | 	1/15/13 |
-| Johns Creek, Georgia | 	8/16/12 |
-| Juneau, Alaska | 	1/23/13 |
-| Kenedy, Texas | 	8/30/12 |
-| Laramie, Wyoming | 	1/24/13 |
-| Lincoln, Nebraska | 	1/23/13 |
-| Madison, Wisconsin | 	1/27/13 |
-| Marathon, Florida | 	8/21/12 |
-| Memphis, Tennessee | 	8/15/12 |
-| Portland, Oregon | 	1/16/13 |
-| Stockton, California | 	8/14/12 |
-| Vancouver, Washington | 	1/15/13 |
-| West Palm Beach, Florida | 	8/8/12 |
-| Whittier, California | 	8/21/12 |
-| Woodmere, Ohio | 	1/17/13 |
-| Yuma, Arizona | 	8/15/12 |
-| Milwaukee, Wisconsin | 	4/7/16 |
-| Milwaukee, Wisconsin | 	4/3/17 |
-| Milwaukee, Wisconsin | 	8/3/16 |
-| Milwaukee, Wisconsin | 	8/22/17 |
-| Milwaukee, Wisconsin | 	12/7/16 |
-| Milwaukee, Wisconsin | 	12/1/17 |
-| Milwaukee, Wisconsin | 	2/8/16 |
-| Milwaukee, Wisconsin | 	2/6/17 |
-| Milwaukee, Wisconsin | 	1/6/16 |
-| Milwaukee, Wisconsin | 	1/5/17 |
-| Milwaukee, Wisconsin | 	7/18/16 |
-| Milwaukee, Wisconsin | 	7/12/17 |
-| Milwaukee, Wisconsin | 	6/8/16 |
-| Milwaukee, Wisconsin | 	6/7/17 |
-| Milwaukee, Wisconsin | 	3/2/16 |
-| Milwaukee, Wisconsin | 	3/1/17 |
-| Milwaukee, Wisconsin | 	5/2/16 |
-| Milwaukee, Wisconsin | 	5/1/17 |
-| Milwaukee, Wisconsin | 	11/3/16 |
-| Milwaukee, Wisconsin | 	11/2/17 |
-| Milwaukee, Wisconsin | 	10/5/16 |
-| Milwaukee, Wisconsin | 	10/4/17 |
-| Milwaukee, Wisconsin | 	9/21/16 |
-| Milwaukee, Wisconsin | 	9/26/17 |
-
-
-
-
-
-
+- 22 wastewater treatment plants across USA during warm & cold sampling periods ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5); [Newton et al., 2015](https://journals.asm.org/doi/10.1128/mBio.02574-14))
+- 2 treatment plants from Milwaukee sampled monthly for two years ([LaMartina et al., 2021](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5))
 
