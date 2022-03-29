@@ -23,7 +23,9 @@ Amplicon sequence variants (ASVs), or unique DNA sequences, of 16S ribosomal RNA
 
 > <b>Counts:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Wastewater_full16S_ASV_counts.csv)
 > or [Google](https://docs.google.com/spreadsheets/d/1_nxGXSNOZDAhvrSPx5PScNSfmPEhBNdLQRRxpZXa3us/edit?usp=sharing)
+> 
 > <b>Taxonomy:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Wastewater_full16S_ASV_taxonomy.csv) or [Google](https://docs.google.com/spreadsheets/d/18lFvSVJgChefZl8Jg0jVeHYftfpNCiv3Uay8Sv2yb3o/edit?usp=sharing)
+> 
 > <b>FASTA:</b> [GitHub](https://github.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Full16S_sewageDatabase_ASV.fasta.gz)
 
 
