@@ -1,8 +1,8 @@
-# Full-length 16S rRNA gene amplicons from raw sewage spanning years across USA
+# Wastewater microbial marker gene reference database
 
 <b>Lou LaMartina, Angie Schmoldt, Ryan Newton</b>
 
-A reference database of full-length bacterial 16S rRNA gene sequences.
+Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA sequences from the PacBio Sequel II were curated with DADA2, mothur, and Silva v.138. Sample metadata, FASTA sequences, counts, and taxonomy are publicly available at NCBI, Google Drive, and GitHub in multiple formats.
 
 
 ## Data access
