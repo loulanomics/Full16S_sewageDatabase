@@ -2,7 +2,7 @@
 
 <b>Lou LaMartina, Angie Schmoldt, Ryan Newton</b>
 
-Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA sequences from the PacBio Sequel II were curated with DADA2, mothur, and Silva v.138. Sample metadata, FASTA sequences, counts, and taxonomy are publicly available in multiple formats.
+Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA sequences from the PacBio Sequel II were curated with DADA2, mothur, and Silva v.138. Sample information, FASTA sequences, counts, and taxonomy are publicly available in multiple formats.
 
 
 ## Data access
