@@ -37,11 +37,7 @@ R scripts to organize and explore data, calculate statistics, and create plots.
 
 ## Sample set
 
-In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA gene sequencing. Samples encompass a wide range of bacterial diversity over space and time, according to previous studies ([1](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5), [2](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5)).
-
-<b>Temporal.</b>  24 sewage samples collected once a month for two years from a single treatment plant.
-
-<b>Spatial.</b>  22 treatment plants from across the US. Southern samples were collected in summer and northern samples in winter.
+In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA gene sequencing. Samples encompass a wide range of bacterial diversity over space and time, according to previous studies ([1](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5), [2](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5)). <b>Temporally</b>, 24 sewage samples collected once a month for two years from a single treatment plant. <b>Spatially,</b>  22 treatment plants were sampled from across the US, with southern samples from summer and northern samples in winter.
 
 
 ## Analysis
