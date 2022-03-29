@@ -1,14 +1,3 @@
-<div class="panel panel-info">
-**Note**
-{: .panel-heading}
-<div class="panel-body">
-
-NOTE DESCRIPTION
-
-</div>
-</div>
-
-
 # Wastewater microbial marker gene reference database
 
 <b>Lou LaMartina, Angie Schmoldt, Ryan Newton</b>
