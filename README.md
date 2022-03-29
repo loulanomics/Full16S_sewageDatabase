@@ -4,8 +4,6 @@
 
 Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA sequences from the PacBio Sequel II were curated with DADA2, mothur, and Silva v.138. Sample information, FASTA sequences, counts, and taxonomy are publicly available in multiple formats.
 
----
-
 ## Data access
 
 ### ASV files
@@ -42,8 +40,6 @@ R scripts to organize and explore data, calculate statistics, and create plots.
 ## Sample set
 
 In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA gene sequencing. Samples encompass a wide range of bacterial diversity over space and time, according to previous studies ([1](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5), [2](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5)). <b>Temporally</b>, 24 sewage samples were collected once a month for two years from a single treatment plant. <b>Spatially</b>, 22 treatment plants were sampled from across the US, with southern samples from summer and northern samples from winter.
-
----
 
 ## Analysis
 
