@@ -21,10 +21,10 @@ Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA se
 Amplicon sequence variants (ASVs), or unique DNA sequences, of 16S ribosomal RNA genes from wastewater bacteria. <b>Counts</b> files are the number of times (reads) that ASVs occur in each sample. <b>Taxonomy</b> files show the taxonomic classification of ASVs from Kingdom to Species. ASV names range from ASV0001 to ASV1041, ranked from most to least abundant. <b>FASTA</b> sequences of ASVs whose headers include ASV ID, taxonomic assignments, read count, and read direction (R1/R2). 
 
 
-> <b>Counts:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Wastewater_full16S_ASV_counts.csv)
+> <b>Counts:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/main/Files/Wastewater_full16S_ASV_counts.csv)
 > or [Google](https://docs.google.com/spreadsheets/d/1_nxGXSNOZDAhvrSPx5PScNSfmPEhBNdLQRRxpZXa3us/edit?usp=sharing)
 > 
-> <b>Taxonomy:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Wastewater_full16S_ASV_taxonomy.csv) or [Google](https://docs.google.com/spreadsheets/d/18lFvSVJgChefZl8Jg0jVeHYftfpNCiv3Uay8Sv2yb3o/edit?usp=sharing)
+> <b>Taxonomy:</b> [GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/main/Files/Wastewater_full16S_ASV_taxonomy.csv) or [Google](https://docs.google.com/spreadsheets/d/18lFvSVJgChefZl8Jg0jVeHYftfpNCiv3Uay8Sv2yb3o/edit?usp=sharing)
 > 
 > <b>FASTA:</b> [GitHub](https://github.com/loulanomics/Full16S_sewageDatabase/raw/main/Files/Full16S_sewageDatabase_ASV.fasta.gz)
 
