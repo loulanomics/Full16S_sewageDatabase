@@ -40,7 +40,7 @@ In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA
 
 ## Analysis
 
-1. <b>Marker gene.</b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at 27F and 1492R (27F:AGRGTTYGATYMTGGCTCAG and 1492R:RGYTACCTTGTTACGACTT). Unique [barcodes](https://github.com/PacificBiosciences/Bioinformatics-Training/blob/master/barcoding/pacbio_384_barcodes.fasta) were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
+1. <b>Marker gene.</b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at [27F and 1492R](https://academic.oup.com/nar/article/47/18/e103/5527971). Unique [barcodes](https://github.com/PacificBiosciences/Bioinformatics-Training/blob/master/barcoding/pacbio_384_barcodes.fasta) were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
 
 2. <b>DNA sequencing.</b>  PCR amplicons were sequenced in multiplex on a PacBio Sequel II.
 
