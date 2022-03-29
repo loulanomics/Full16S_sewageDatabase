@@ -1,3 +1,14 @@
+<div class="panel panel-info">
+**Note**
+{: .panel-heading}
+<div class="panel-body">
+
+NOTE DESCRIPTION
+
+</div>
+</div>
+
+
 # Wastewater microbial marker gene reference database
 
 <b>Lou LaMartina, Angie Schmoldt, Ryan Newton</b>
@@ -19,6 +30,8 @@ Full-length 16S rRNA gene sequences, from 27F to 1492R and regions V1-V9. DNA se
 ### ASV files
 
 Amplicon sequence variants (ASVs), or unique DNA sequences, of 16S ribosomal RNA genes from wastewater bacteria. <b>Counts</b> files are the number of times (reads) that ASVs occur in each sample. <b>Taxonomy</b> files show the taxonomic classification of ASVs from Kingdom to Species. ASV names range from ASV0001 to ASV1041, ranked from most to least abundant. <b>FASTA</b> sequences of ASVs whose headers include ASV ID, taxonomic assignments, read count, and read direction (R1/R2). 
+
+
 
 Counts
 - [download from GitHub](https://raw.githubusercontent.com/loulanomics/Full16S_sewageDatabase/main/Files/Wastewater_full16S_ASV_counts.csv)
