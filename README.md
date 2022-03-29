@@ -40,13 +40,13 @@ In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA
 
 ## Analysis
 
-<b>1.  Marker gene.</b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at 27F and 1492R. Unique barcodes were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
+1.  <b>Marker gene.</b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at 27F and 1492R. Unique barcodes were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
 
 - 12 forward [barcodes](https://github.com/PacificBiosciences/Bioinformatics-Training/blob/master/barcoding/pacbio_384_barcodes.fasta) (0007_Forward - 0018_Forward)
 - 4 reverse barcodes (reverse complements; 0004_Forward - 0007_Forward)
 - 27F:AGRGTTYGATYMTGGCTCAG and 1492R:RGYTACCTTGTTACGACTT universal primer set
 
-<b>2.  DNA sequencing.</b>  PCR amplicons were sequenced in multiplex on a PacBio Sequel II.
+2. <b>DNA sequencing.</b>  PCR amplicons were sequenced in multiplex on a PacBio Sequel II.
 
-<b>3.  Data processing.</b>  Data files were subsetted to individual samples according to their assigned barcodes. Cutadapt was used to trim primers and barcodes from reads, [DADA2](https://benjjneb.github.io/dada2/tutorial.html) generated ASV counts and assigned taxonomy, and [mothur](https://mothur.org/wiki/cluster/) clustered ASVs into OTUs.
+3.  <b>Data processing.</b>  Data files were subsetted to individual samples according to their assigned barcodes. Cutadapt was used to trim primers and barcodes from reads, [DADA2](https://benjjneb.github.io/dada2/tutorial.html) generated ASV counts and assigned taxonomy, and [mothur](https://mothur.org/wiki/cluster/) clustered ASVs into OTUs.
 
