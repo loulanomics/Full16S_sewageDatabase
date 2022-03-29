@@ -39,20 +39,20 @@ R scripts to organize and explore data, calculate statistics, and generate plots
 
 In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA gene sequencing. Samples encompass a wide range of bacterial diversity over space and time, according to previous studies ([1](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5), [2](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5)).
 
-<b>Time.</b>  24 sewage samples collected once a month for two years from a single treatment plant.
+<b>Temporal.  </b>  24 sewage samples collected once a month for two years from a single treatment plant.
 
-<b>Space.</b>  22 treatment plants from across the US. Southern samples were collected in summer and northern samples in winter.
+<b>Spatial  .</b>  22 treatment plants from across the US. Southern samples were collected in summer and northern samples in winter.
 
 
 ## Analysis
 
-<b>1.  Marker gene.</b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at 27F and 1492R. Unique barcodes were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
+<b>1.  Marker gene.  </b>  Hypervariable and conserved regions (V1-V9) were PCR-amplified at 27F and 1492R. Unique barcodes were appended to primers to allow  sequencing of all samples simultaneously (multiplex).
 
 - 12 forward [barcodes](https://github.com/PacificBiosciences/Bioinformatics-Training/blob/master/barcoding/pacbio_384_barcodes.fasta) (0007_Forward - 0018_Forward)
 - 4 reverse barcodes (reverse complements; 0004_Forward - 0007_Forward)
 - 27F:AGRGTTYGATYMTGGCTCAG and 1492R:RGYTACCTTGTTACGACTT universal primer set
 
-<b>2.  DNA sequencing.</b>  PCR amplicons were sequenced in multiplex on a PacBio Sequel II.
+<b>2.  DNA sequencing.  </b>  PCR amplicons were sequenced in multiplex on a PacBio Sequel II.
 
-<b>3.  Data processing.</b>  Data files were subsetted to individual samples according to their assigned barcodes. Cutadapt was used to trim primers and barcodes from reads, [DADA2](https://benjjneb.github.io/dada2/tutorial.html) generated ASV counts and assigned taxonomy, and [mothur](https://mothur.org/wiki/cluster/) clustered ASVs into OTUs.
+<b>3.  Data processing.  </b>  Data files were subsetted to individual samples according to their assigned barcodes. Cutadapt was used to trim primers and barcodes from reads, [DADA2](https://benjjneb.github.io/dada2/tutorial.html) generated ASV counts and assigned taxonomy, and [mothur](https://mothur.org/wiki/cluster/) clustered ASVs into OTUs.
 
