@@ -1,4 +1,4 @@
-# Wastewater microbial marker gene reference database
+# Microbial marker gene reference database for wastewater
 
 <b>Lou LaMartina, Angie Schmoldt, Ryan Newton</b>
 
