@@ -59,25 +59,4 @@ In total, 46 wastewater treatment plant influent (raw sewage) underwent 16S rRNA
 
 3. <b>Data processing.</b>  Data files were subsetted to individual samples according to their assigned barcodes. Cutadapt was used to trim primers and barcodes from reads, [DADA2](https://benjjneb.github.io/dada2/tutorial.html) generated ASV counts and assigned taxonomy, and [mothur](https://mothur.org/wiki/cluster/) clustered ASVs into OTUs.
 
-# Results
-
-### Common OTUs
-
-<a href="https://github.com/loulanomics/Full16S_sewageDatabase/blob/main/Figures/barplot.png"><img width="600" alt="barplot" src="https://user-images.githubusercontent.com/48258356/160739523-043348d6-b68e-4436-98cc-fc6c59f37155.png"></a>
-
-
-The most <b>common OTUs</b> are distinct between datasets. Communities expected to have a "warm" assemblage, such as those from the South US, are very different from "cold" communities. Entire genera such as <i>Trichococcus</i> were completely absent from the most warm-like samples. In contrast, <i>Pseudomonas mendocina</i> were exlusively found in South US wastewater.
-
-### Diversity
-
-<a href="https://github.com/loulanomics/Full16S_sewageDatabase/blob/main/Figures/diversity.png"><img width="1000" alt="diversity" src="https://user-images.githubusercontent.com/48258356/160739674-1e545c80-e3d0-47ad-a01b-822a9b065c6d.png"></a>
-
-Within- (richness) and between- (similarity) sample <b>diversity</b> tracks what has been shown in previous studies.  Short-read V4-V5 analyses showed more within-sample diversity, however, long-read full 16S rRNA genes captured 96% of the short-read ASVs. Therefore, both short- and long-read analyses are sufficient for community analysis, but short-read (Illumina) data might better capture rare organisms, while long-read (PacBio) offers greater taxonomic resolution.
-
-### Temperature dependence
-
-<a href="https://github.com/loulanomics/Full16S_sewageDatabase/blob/main/Figures/dendrogram.png"><img width="1000" alt="dendrogram" src="https://user-images.githubusercontent.com/48258356/160740291-28362c58-88e5-4440-aa73-b9452b69ce31.png"></a>
-
-As seen previously ([1](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5), [2](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-021-01038-5)), wastewater temperature is a strong <b>driver</b> of microbial community structures. Warm-like wastewater samples cluster apart from cold ones. Further, relative abundances of OTUs fluctuate according to those temperatures.
-
-
+Preview results [here](https://loulanomics.github.io)!
